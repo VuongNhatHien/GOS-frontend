@@ -31,7 +31,7 @@ export default function RootLayout({
         <main className="flex h-screen flex-col">
           <div className="flex h-full gap-1">
             <Navbar />
-            <div className="flex flex-4 justify-center">{children}</div>
+            <div className="flex flex-4">{children}</div>
           </div>
         </main>
       </body>
