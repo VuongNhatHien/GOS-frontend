@@ -1,8 +1,5 @@
 
 export default function Home() {
-  async function handleSubmit(formData: FormData) {
-    "use server";
-  }
   return (
     <>
       <div className="flex justify-center items-center w-full">
