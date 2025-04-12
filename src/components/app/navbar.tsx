@@ -4,7 +4,6 @@ import { usePathname } from 'next/navigation';
 
 export default function Navbar() {
   const pathname = usePathname();
-  console.log(pathname);
   return (
     <div className="flex flex-col flex-1 bg-secondary p-4">
       <p className="font-bold text-2xl self-center">Menu</p>
